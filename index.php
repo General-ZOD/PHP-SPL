@@ -80,7 +80,7 @@ print "<br />";
 								
 
 $ch = curl_init();
-curl_setopt($ch, CURLOPT_URL, "");
+curl_setopt($ch, CURLOPT_URL, "http://localhost:84/json.php");
 curl_setopt($ch, CURLOPT_POST,1);
 curl_setopt($ch, CURLOPT_RETURNTRANSFER,1);
 curl_setopt($ch, CURLOPT_TIMEOUT, 60);
